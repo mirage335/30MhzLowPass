@@ -1,0 +1,88 @@
+( pcb2gcode 1.1.4 )
+
+( This file uses 4 drill bit sizes. )
+
+G94     ( Inches per minute feed rate. )
+G20     ( Units == INCHES.             )
+G90     ( Absolute coordinates.        )
+S10000  ( RPM spindle speed.           )
+
+G00 Z0.19685 ( Retract )
+T31
+M5      ( Spindle stop.                )
+M6      ( Tool change.                 )
+(MSG, CHANGE TOOL BIT: to drill size 0.05000 inch)
+M0      ( Temporary machine stop.      )
+M3      ( Spindle on clockwise.        )
+
+G81 R0.19685 Z0.00000 F0.98425 X0.80000 Y0.50000
+X1.00000 Y0.20000
+X1.60000 Y0.50000
+X1.70000 Y0.50000
+X1.80000 Y0.20000
+X2.10000 Y0.20000
+X2.50000 Y0.50000
+X2.60000 Y0.50000
+X2.90000 Y0.20000
+X3.20000 Y0.20000
+X3.40000 Y0.50000
+X4.00000 Y0.20000
+
+
+G00 Z0.19685 ( Retract )
+T32
+M5      ( Spindle stop.                )
+M6      ( Tool change.                 )
+(MSG, CHANGE TOOL BIT: to drill size 0.03000 inch)
+M0      ( Temporary machine stop.      )
+M3      ( Spindle on clockwise.        )
+
+G81 R0.19685 Z0.00000 F0.98425 X0.80000 Y0.40000
+X0.80000 Y0.10000
+X0.90000 Y0.40000
+X0.90000 Y0.10000
+X1.90000 Y0.40000
+X1.90000 Y0.10000
+X2.00000 Y0.40000
+X2.00000 Y0.10000
+X3.00000 Y0.40000
+X3.00000 Y0.10000
+X3.10000 Y0.40000
+X3.10000 Y0.10000
+X4.10000 Y0.40000
+X4.10000 Y0.10000
+
+
+G00 Z0.19685 ( Retract )
+T33
+M5      ( Spindle stop.                )
+M6      ( Tool change.                 )
+(MSG, CHANGE TOOL BIT: to drill size 0.08100 inch)
+M0      ( Temporary machine stop.      )
+M3      ( Spindle on clockwise.        )
+
+G81 R0.19685 Z0.00000 F0.98425 X0.30000 Y0.50000
+X0.30000 Y0.10000
+X4.70000 Y0.50000
+X4.70000 Y0.10000
+
+
+G00 Z0.19685 ( Retract )
+T34
+M5      ( Spindle stop.                )
+M6      ( Tool change.                 )
+(MSG, CHANGE TOOL BIT: to drill size 0.03500 inch)
+M0      ( Temporary machine stop.      )
+M3      ( Spindle on clockwise.        )
+
+G81 R0.19685 Z0.00000 F0.98425 X0.50000 Y0.30000
+X0.50000 Y0.20000
+X4.50000 Y0.40000
+X4.50000 Y0.30000
+
+
+G00 Z0.19685 ( All done -- retract )
+
+M9 ( Coolant off. )
+M2 ( Program end. )
+

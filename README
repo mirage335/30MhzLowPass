@@ -1,0 +1,23 @@
+Copyright (C) 2013 mirage335
+See the end of the file for license conditions.
+See license.txt for 30MHzLowPass license conditions.
+
+Simple 30MHz preselection filter, useful in superheterodyne shortwave radios. Extremely sharp stopband attenuation, approaching 90dB@~45MHz in a real-world test. Coupling between BNC cables used in the test likely accounted for loss of sharp dropoff past 40MHz. May offerr much greater stopband attenuation, given shorter transmission lines and better shielding, as would be the case on a PCB hosting a complete radio.
+
+Air-core inductors wound on 3D printed heaxagonal formers were used as inductors. PLA plastic at minimum infill should be used for best results.
+
+__Copyright__
+This file is part of 30MHzLowPass.
+
+30MHzLowPass is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+30MHzLowPass is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with 30MHzLowPass.  If not, see <http://www.gnu.org/licenses/>.

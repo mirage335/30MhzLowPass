@@ -1,0 +1,9 @@
+unnamed_net8	L6-1 L5-2 C5-2 
+unnamed_net7	CONN2-1 L6-2 C6-2 R2-2 
+unnamed_net6	L5-1 C5-2 L4-2 
+unnamed_net5	C4-2 L4-1 L3-2 
+unnamed_net4	C3-2 L3-1 L2-2 
+unnamed_net3	L2-1 C2-2 L1-2 
+unnamed_net2	R1-1 V1-1 
+unnamed_net1	CONN1-1 R1-2 L1-1 C1-2 
+GND	CONN2-2 CONN1-2 C6-1 R2-1 C5-1 C4-1 C3-1 C2-1 V1-2 C1-1 

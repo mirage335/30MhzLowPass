@@ -1,0 +1,265 @@
+v 20121123 2
+C 18700 14100 1 90 0 capacitor-1.sym
+{
+T 18000 14300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 18200 14300 5 10 1 1 90 0 1
+refdes=C1
+T 17800 14300 5 10 0 0 90 0 1
+symversion=0.1
+T 17900 14100 5 10 1 1 0 0 1
+value=100pF
+T 18700 14100 5 10 0 0 0 0 1
+footprint=ACY300
+}
+C 16200 13800 1 0 0 vac-1.sym
+{
+T 16900 14450 5 10 1 1 0 0 1
+refdes=V1
+T 16900 14650 5 10 0 0 0 0 1
+device=vac
+T 16900 14850 5 10 0 0 0 0 1
+footprint=none
+T 16900 14250 5 10 1 1 0 0 1
+value=dc 0 ac 1
+T 16200 13800 5 10 0 0 0 0 1
+description=X SIMULATION ONLY
+}
+C 16400 13500 1 0 0 gnd-1.sym
+C 18400 13800 1 0 0 gnd-1.sym
+C 16600 14900 1 0 0 resistor-1.sym
+{
+T 16900 15300 5 10 0 0 0 0 1
+device=RESISTOR
+T 16800 15200 5 10 1 1 0 0 1
+refdes=R1
+T 16600 14900 5 10 1 1 0 0 1
+value=50
+T 16600 14900 5 10 0 0 0 0 1
+footprint=none
+T 16600 14900 5 10 0 0 0 0 1
+description=X SIMULATION ONLY
+}
+N 16600 15000 16500 15000 4
+C 18500 14900 1 0 0 inductor-1.sym
+{
+T 18700 15400 5 10 0 0 0 0 1
+device=INDUCTOR
+T 18700 15200 5 10 1 1 0 0 1
+refdes=L1
+T 18700 15600 5 10 0 0 0 0 1
+symversion=0.1
+T 18500 14900 5 10 1 1 0 0 1
+value=400nH
+T 18500 14900 5 10 0 0 0 0 1
+footprint=ACY800
+T 18500 14900 5 10 0 0 0 0 1
+description=Counterwound Air-Core Toroid
+}
+C 19600 14100 1 90 0 capacitor-1.sym
+{
+T 18900 14300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 19100 14300 5 10 1 1 90 0 1
+refdes=C2
+T 18700 14300 5 10 0 0 90 0 1
+symversion=0.1
+T 18800 14100 5 10 1 1 0 0 1
+value=330pF
+T 19600 14100 5 10 0 0 0 0 1
+footprint=ACY300
+}
+C 19300 13800 1 0 0 gnd-1.sym
+C 19400 14900 1 0 0 inductor-1.sym
+{
+T 19600 15400 5 10 0 0 0 0 1
+device=INDUCTOR
+T 19600 15200 5 10 1 1 0 0 1
+refdes=L2
+T 19600 15600 5 10 0 0 0 0 1
+symversion=0.1
+T 19400 14900 5 10 1 1 0 0 1
+value=400nH
+T 19400 14900 5 10 0 0 0 0 1
+footprint=ACY800
+T 19400 14900 5 10 0 0 0 0 1
+description=Counterwound Air-Core Toroid
+}
+C 20200 13800 1 0 0 gnd-1.sym
+C 20300 14900 1 0 0 inductor-1.sym
+{
+T 20500 15400 5 10 0 0 0 0 1
+device=INDUCTOR
+T 20500 15600 5 10 0 0 0 0 1
+symversion=0.1
+T 20500 15200 5 10 1 1 0 0 1
+refdes=L3
+T 20300 14900 5 10 1 1 0 0 1
+value=400nH
+T 20300 14900 5 10 0 0 0 0 1
+footprint=ACY800
+T 20300 14900 5 10 0 0 0 0 1
+description=Counterwound Air-Core Toroid
+}
+C 20500 14100 1 90 0 capacitor-1.sym
+{
+T 19800 14300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 20000 14300 5 10 1 1 90 0 1
+refdes=C3
+T 19600 14300 5 10 0 0 90 0 1
+symversion=0.1
+T 19700 14100 5 10 1 1 0 0 1
+value=330pF
+T 20500 14100 5 10 0 0 0 0 1
+footprint=ACY300
+}
+C 21100 13800 1 0 0 gnd-1.sym
+C 21200 14900 1 0 0 inductor-1.sym
+{
+T 21400 15400 5 10 0 0 0 0 1
+device=INDUCTOR
+T 21400 15600 5 10 0 0 0 0 1
+symversion=0.1
+T 21400 15200 5 10 1 1 0 0 1
+refdes=L4
+T 21200 14900 5 10 1 1 0 0 1
+value=400nH
+T 21200 14900 5 10 0 0 0 0 1
+footprint=ACY800
+T 21200 14900 5 10 0 0 0 0 1
+description=Counterwound Air-Core Toroid
+}
+C 21400 14100 1 90 0 capacitor-1.sym
+{
+T 20700 14300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 20900 14300 5 10 1 1 90 0 1
+refdes=C4
+T 20500 14300 5 10 0 0 90 0 1
+symversion=0.1
+T 20600 14100 5 10 1 1 0 0 1
+value=330pF
+T 21400 14100 5 10 0 0 0 0 1
+footprint=ACY300
+}
+C 22300 14100 1 90 0 capacitor-1.sym
+{
+T 21600 14300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 21800 14300 5 10 1 1 90 0 1
+refdes=C5
+T 21400 14300 5 10 0 0 90 0 1
+symversion=0.1
+T 21500 14100 5 10 1 1 0 0 1
+value=330pF
+T 22300 14100 5 10 0 0 0 0 1
+footprint=ACY300
+}
+C 22000 13800 1 0 0 gnd-1.sym
+C 25000 14100 1 90 0 resistor-1.sym
+{
+T 24600 14400 5 10 0 0 90 0 1
+device=RESISTOR
+T 24800 14100 5 10 1 1 90 0 1
+refdes=R2
+T 25000 14200 5 10 1 1 90 0 1
+value=50
+T 25000 14100 5 10 0 0 0 0 1
+footprint=none
+T 25000 14100 5 10 0 0 0 0 1
+description=X SIMULATION ONLY
+}
+N 17500 15000 18500 15000 4
+C 24800 13800 1 0 0 gnd-1.sym
+C 23200 14100 1 90 0 capacitor-1.sym
+{
+T 22500 14300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 22300 14300 5 10 0 0 90 0 1
+symversion=0.1
+T 22700 14300 5 10 1 1 90 0 1
+refdes=C6
+T 22400 14100 5 10 1 1 0 0 1
+value=330pF
+T 23200 14100 5 10 0 0 0 0 1
+footprint=ACY300
+}
+C 22900 13800 1 0 0 gnd-1.sym
+C 22100 14900 1 0 0 inductor-1.sym
+{
+T 22300 15400 5 10 0 0 0 0 1
+device=INDUCTOR
+T 22300 15600 5 10 0 0 0 0 1
+symversion=0.1
+T 22300 15200 5 10 1 1 0 0 1
+refdes=L5
+T 22100 14900 5 10 1 1 0 0 1
+value=400nH
+T 22100 14900 5 10 0 0 0 0 1
+footprint=ACY800
+T 22100 14900 5 10 0 0 0 0 1
+description=Counterwound Air-Core Toroid
+}
+C 24100 14100 1 90 0 capacitor-1.sym
+{
+T 23400 14300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 23200 14300 5 10 0 0 90 0 1
+symversion=0.1
+T 23600 14300 5 10 1 1 90 0 1
+refdes=C7
+T 23300 14100 5 10 1 1 0 0 1
+value=100pF
+T 24100 14100 5 10 0 0 0 0 1
+footprint=ACY300
+}
+C 23800 13800 1 0 0 gnd-1.sym
+C 23000 14900 1 0 0 inductor-1.sym
+{
+T 23200 15400 5 10 0 0 0 0 1
+device=INDUCTOR
+T 23200 15600 5 10 0 0 0 0 1
+symversion=0.1
+T 23200 15200 5 10 1 1 0 0 1
+refdes=L6
+T 23000 14900 5 10 1 1 0 0 1
+value=400nH
+T 23000 14900 5 10 0 0 0 0 1
+footprint=ACY800
+T 23000 14900 5 10 0 0 0 0 1
+description=Counterwound Air-Core Toroid
+}
+N 23900 15000 24900 15000 4
+C 17400 15500 1 0 0 BNC-1.sym
+{
+T 17750 16150 5 10 0 0 0 0 1
+device=BNC
+T 17400 16300 5 10 1 1 0 0 1
+refdes=CONN1
+T 17400 15500 5 10 0 0 0 0 1
+footprint=BNC_LAY
+T 17400 15500 5 10 0 0 0 0 1
+value=-
+T 17400 15500 5 10 0 0 0 0 1
+description=$1.74 MOUSER 737-RF1-01-P-00-50
+}
+C 24500 15500 1 0 1 BNC-1.sym
+{
+T 24150 16150 5 10 0 0 0 6 1
+device=BNC
+T 24500 16300 5 10 1 1 0 6 1
+refdes=CONN2
+T 24500 15500 5 10 0 0 0 0 1
+footprint=BNC_LAY
+T 24500 15500 5 10 0 0 0 0 1
+value=-
+T 24500 15500 5 10 0 0 0 0 1
+description=$1.74 MOUSER 737-RF1-01-P-00-50
+}
+N 17900 16000 18500 16000 4
+N 18500 16000 18500 15000 4
+N 23900 15000 23900 16000 4
+N 23900 16000 24000 16000 4
+C 17400 15200 1 0 0 gnd-1.sym
+C 24300 15200 1 0 0 gnd-1.sym

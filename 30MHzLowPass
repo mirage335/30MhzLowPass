@@ -1,0 +1,4 @@
+elements-dir ./gedasymbols/footprints
+elements-dir ./customParts/footprints
+schematics 30MHzLowPass.sch
+output-name 30MHzLowPass
